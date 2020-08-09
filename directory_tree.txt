@@ -1,0 +1,65 @@
+MovieRS
+├── Dockerfile
+├── Procfile
+├── README.md
+├── boot.sh
+├── deploy.py
+├── directory_tree.txt
+├── docker_run.py
+├── iicf.py
+├── mf.py
+├── mongodb_collections
+│   ├── movies_174_new.json
+│   └── user_ratings_4570_new.json
+├── requirements.txt
+├── static
+│   ├── bootstrap.min.css
+│   ├── bootstrap.min.js
+│   ├── images
+│   ├── jquery.min.js
+│   └── new.css
+├── templates
+│   ├── dashboard.html
+│   ├── includes
+│   │   └── _navbar.html
+│   ├── index.html
+│   ├── layout.html
+│   ├── login.html
+│   ├── rate_movies.html
+│   ├── register.html
+│   ├── see_iicf_suggestions.html
+│   ├── see_mf_suggestions.html
+│   └── see_uucf_suggestions.html
+├── uucf.py
+└── workflow
+    ├── movielens_data
+    │   ├── links.csv
+    │   └── ratings.csv
+    ├── new_data
+    │   ├── final_data_to_scrap.csv
+    │   └── final_ratings.csv
+    ├── ratings_to_mongodb.py
+    ├── scrapy_spiders
+    │   └── scrap_imdb
+    │       ├── scrap_imdb
+    │       │   ├── __init__.py
+    │       │   ├── items.py
+    │       │   ├── middlewares.py
+    │       │   ├── pipelines.py
+    │       │   ├── settings.py
+    │       │   └── spiders
+    │       │       ├── SpiderCrawl.py
+    │       │       ├── Untitled.ipynb
+    │       │       ├── __init__.py
+    │       │       ├── final_data.csv
+    │       │       ├── images_174_new
+    │       │       │   └── full
+    │       │       ├── log.txt
+    │       │       └── test.txt
+    │       └── scrapy.cfg
+    └── scripts_and_ipynb
+        ├── add_movie_id.py
+        ├── dataset.ipynb
+        └── get_only_new_movies_ratings.ipynb
+
+15 directories, 47 files
