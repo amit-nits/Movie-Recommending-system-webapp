@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+    <div class="jumbotron text-center font">
+        <h1>Welcome</h1>
+        <p class="lead font">Movie Recommender System</p>
+
+        <h2>
+            Welcome:
+
+                {{ session['username'] }}
+
+        </h2>
+
+
+
+    </div>
+
+{% endblock %}
+
+
